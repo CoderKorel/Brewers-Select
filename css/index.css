@@ -1,0 +1,371 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    background:#EFEDED;
+}
+/*header - start*/
+.top-content ul {
+    text-align: right;
+}
+.top-container-nav {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    margin-top: 15px;
+}
+
+.top-container-nav li {
+    display: inline;
+    
+}
+.top-container-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    margin:10px;
+}
+.top-container-nav a:hover {
+    color:#F4E23E;
+}
+.socialmedia1 {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+.socialmedia1 li {
+  display: inline;
+}
+.socialmedia1 li a {
+    text-decoration: none;
+}
+/*header - end*/
+/*sitename - start*/
+.sitename {
+    text-align: center;
+    color: green;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+}
+/*sitename - end*/
+/*main-content - start*/
+/*quicklinks - start*/
+.main-content {
+    border-top-style: solid;
+    border-color: green;
+}
+.main-nav {
+    list-style-type: none;
+    font-size: 20px;
+}
+.main-nav li {
+    display: inline;
+    padding: 10px;
+}
+.main-nav a {
+    text-decoration: none;
+    color: green;
+}
+.main-nav li a:hover {
+    color:#F4E23E;
+}
+/*quicklinks - end*/
+/*slider - start*/
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  
+  width: 100%;
+}
+.slidesmain {
+    display: none;
+}
+.text {
+  color: green;
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.slidimg {
+    width:100%;
+}
+/*slider - end*/
+h1 {
+    font-size: 20px;
+    padding: 17px;
+}
+#shophere {
+    border-top-style: solid;
+    border-color: green;
+}
+/*maincontainer - start*/
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+.bl {
+  border-radius:3px;
+  margin:5px;
+  background:#f9f9f4;
+  width:20%;
+}
+
+.maincontainer a {
+  text-decoration: none;
+  color:green;
+}
+.maincontainer a:hover {
+  color:#F4E23E;
+}
+/*maincontainer - end*/
+/*how to brew - start*/
+#informationabout {
+    border-top-style: solid;
+    border-color: green;
+}
+/*how to brew - end*/
+/*grid-endinfo - start*/
+#grid-endinfo {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #E4E5E4;
+    padding-bottom: 30px;
+}
+
+h6 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/*moreinfo - start*/
+.moreinfo ul {
+        text-align: center;
+}
+.moreinfo li {
+    list-style-type: none;
+    padding: 7px 0;
+    border-bottom: 1px dotted #46B746;
+    margin-bottom: 0;
+}
+.moreinfo li a {
+    text-decoration: none;
+    color: green;
+}
+.moreinfo a:hover {
+    color:#F4E23E;
+}
+/*moreinfo - end*/
+/*contact - start*/
+.phonenum {
+    font-style: italic;
+}
+.contact a {
+    color: green;
+    text-decoration: none;
+}
+.contact a:hover {
+    color:#F4E23E;
+}
+/*modal in contact - start*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: green; 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-image: url("../img/teawallp.png");
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 15%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content .textinmod {
+    color:black;
+}
+.modal-content input {
+    width:100%;
+}
+.modal-content textarea {
+    width:100%;
+}
+#conBtn {
+   margin-left: 4px; 
+}
+/*modal in contact - end*/
+/*arrow to top - start*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    background: green;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+.scrollToTop {
+    width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+    background: url('arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+/*arrow to top - end*/
+
+/*mobile - start*/
+/* 75-px - start*/
+@media screen and (max-width: 750px){
+         .maincontainer{
+             display: flex;
+             flex-direction:row;
+             flex-wrap:wrap;
+    }
+  }
+@media screen and (max-width: 750px){
+         .bl{
+         width: 100%;
+  }
+}
+@media screen and (max-width: 750px){
+         iframe {
+         width: 100%;
+  }
+/* 750px - end*/
+/* 600px - start*/   
+}
+@media screen and (max-width: 813px){
+         iframe {
+         width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px){
+         p {
+         font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px){
+         p {
+         font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px){
+         .text {
+         font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px){
+         .sitename {
+         font-size: 30px;
+  }
+}
+/* 600px - end*/
+/* 320px - start*/
+@media screen and (max-width: 320px){
+         p {
+         font-size: 10px;
+  }
+}
+@media screen and (max-width: 320px){
+         .logopho {
+         width:100%;
+  }
+}
+@media screen and (max-width: 320px){
+         .sitename {
+         font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
